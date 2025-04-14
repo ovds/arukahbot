@@ -1,7 +1,18 @@
 {
+  "name": "arukahbot",
+  "version": "1.0.0",
+  "description": "Telegram bot with OCR and file storage capabilities",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js"
+  },
   "dependencies": {
-    "dotenv": "^16.4.7",
-    "grammy": "^1.35.1",
-    "openai": "^4.91.1"
+    "@google/genai": "^0.1.2",
+    "@upstash/redis": "^1.28.2",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "grammy": "^1.19.2",
+    "tesseract.js": "^5.0.3"
   }
 }
